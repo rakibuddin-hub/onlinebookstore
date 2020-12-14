@@ -1,0 +1,374 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .pre-header {
+        background: #eeefee;
+        padding: 5px 0px 5px 0px;
+    }
+    .pre-header ul {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pre-header ul li {
+        padding-left: 11px;
+        padding-right: 15px;
+        border-right: 0px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        display: flow-root;
+    }
+    .logo-header .logo {
+        margin-bottom: 20px;
+    }
+    .cart-block {
+        margin-top: 36px;
+        position: relative;
+        z-index: 1;
+    }
+    .navbar {
+        height: 65px;
+        margin-top: 65px;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .dropdown-toggle:active {
+        pointer-events: auto;
+    }
+    .dropdown-menu {
+        min-width: 0px;
+        right: 0px;
+        top: 0%;
+        border-top: solid 0px #ea4c1d;
+        box-shadow: 0px 0px rgba(91, 91, 91, 0.2);
+    }
+    .dropdown-menu:after {
+        display: none !important;
+    }
+    .category {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    .carousel-control-prev {
+        left: 10px;
+        top: 57px;
+        width: 4%;
+    }
+    .carousel-control-next {
+        right: 10px;
+        top: 57px;
+        width: 4%;
+    }
+    .pre-footer img {
+        margin-bottom: 50px;
+    }
+    .list-unstyled {
+        margin-bottom: 30px;
+    }
+    .pre-footer address {
+        margin-bottom: 40px;
+    }
+    .pre-footer iframe {
+        margin-bottom: 40px;
+    }
+    .product-category-title h1 {
+        font-size: 16px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -475px !important;
+        margin-left: 72%;
+    }.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        padding: 3px 13px 3px 13px!important;
+    }
+    .pre-footer .social-icons {
+        padding-left: 30%;
+        padding-bottom: 10px;
+    }
+    .newsletter {
+        padding-bottom: 20px;
+    }
+    .footer p {
+        text-align: center;
+    }
+    .footer img {
+        float: none;
+        padding-left: 10%;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .pre-header {
+        background: #eeefee;
+        padding: 5px 0px 5px 0px;
+    }
+    .pre-header ul {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pre-header ul li {
+        padding-left: 11px;
+        padding-right: 15px;
+        border-right: 0px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        display: flow-root;
+    }
+    .logo-header .logo {
+        margin-bottom: 20px;
+    }
+    .cart-block {
+        margin-top: 36px;
+        position: relative;
+        z-index: 1;
+    }
+    .navbar {
+        height: 65px;
+        margin-top: 65px;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .dropdown-toggle:active {
+        pointer-events: auto;
+    }
+    .dropdown-menu {
+        min-width: 0px;
+        right: 0px;
+        top: 0%;
+        border-top: solid 0px #ea4c1d;
+        box-shadow: 0px 0px rgba(91, 91, 91, 0.2);
+    }
+    .dropdown-menu:after {
+        display: none !important;
+    }
+    .carousel-control-prev {
+        left: 10px;
+        top: 50%;
+        width: 4%;
+    }
+    .carousel-control-next {
+        right: 10px;
+        top: 50%;
+        width: 4%;
+    }
+    .category {
+        margin-right: 20px;
+    }
+    .category a {
+        padding-right: 20px;
+    }
+    .category-name {
+        font-size: 14px;
+        margin: 20px 0px 0px 10px;
+    }
+    .product-image .btn-default {
+        margin: -80px 0px 0px 37px;
+    }
+    .pre-footer img {
+        margin-bottom: 50px;
+    }
+    .list-unstyled {
+        margin-bottom: 30px;
+    }
+    .pre-footer address {
+        margin-bottom: 40px;
+    }
+    .pre-footer iframe {
+        margin-bottom: 40px;
+    }
+    .product-category-title h1 {
+        font-size: 16px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -460px !important;
+        margin-left: 80%;
+    }.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        padding: 4px 14px 4px 14px!important;
+    }
+    .pre-footer .social-icons {
+        padding-left: 30%;
+        padding-bottom: 10px;
+    }
+    .newsletter {
+        float: none !important;
+        padding-bottom: 20px;
+    }
+    .footer p {
+        text-align: center;
+    }
+    .footer img {
+        float: none;
+        padding-left: 20%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .pre-header {
+        background: #eeefee;
+        padding: 5px 0px 5px 0px;
+    }
+    .pre-header ul {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pre-header ul li {
+        padding-left: 11px;
+        padding-right: 15px;
+        border-right: 0px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        display: flow-root;
+    }
+    .logo-header .logo {
+        margin-bottom: 20px;
+    }
+    .cart-block {
+        margin-top: 36px;
+        position: relative;
+        z-index: 1;
+    }
+    .navbar {
+        height: 65px;
+        margin-top: 65px;
+    }
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .dropdown-toggle:active {
+        pointer-events: auto;
+    }
+    .dropdown-menu {
+        min-width: 0px;
+        right: 0px;
+        top: 0%;
+        border-top: solid 0px #ea4c1d;
+        box-shadow: 0px 0px rgba(91, 91, 91, 0.2);
+    }
+    .dropdown-menu:after {
+        display: none !important;
+    }
+    .carousel-control-prev {
+        top: 50%;
+    }
+    .carousel-control-next {
+        top: 50%;
+    }
+    .category {
+        margin-right: 20px;
+    }
+    .category a {
+        padding-right: 20px;
+    }
+    .category-name {
+        font-size: 12px;
+        margin: 15px 0px 0px 10px;
+    }
+    .product-image .btn-default {
+        margin: -80px 0px 0px 60px;
+    }
+    .service-section-2 .fa-truck, .service-section-2 .fa-gift, .service-section-2 .fa-phone, .service-section-2 .fa-road {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        padding: 14px 0px 0px 2px;
+    }
+    .service-section-2 span {
+        width: 22px;
+        left: 215px;
+    }
+    .service-section-2 h2 {
+        font-size: 15px;
+    }
+    .service-section-2 p {
+        font-size: 12px;
+    }
+    .pre-footer img {
+        margin-bottom: 50px;
+    }
+    .list-unstyled {
+        margin-bottom: 30px;
+    }
+    .pre-footer address {
+        margin-bottom: 40px;
+    }
+    .pre-footer iframe {
+        margin-bottom: 40px;
+    }
+    .product-category-title h1 {
+        font-size: 16px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -550px !important;
+        margin-left: 85%;
+    }.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        padding: 4px 14px 4px 14px!important;
+    }
+    .pre-footer .social-icons {
+        padding-left: 30%;
+        padding-bottom: 10px;
+    }
+    .newsletter {
+        float: none !important;
+        padding-bottom: 20px;
+    }
+    .footer p {
+        text-align: center;
+    }
+    .footer img {
+        float: none;
+        padding-left: 20%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .pre-header {
+        font-size: 13px;
+    }
+    #nav-item1, #nav-item2, #nav-item3, #nav-item4, #nav-item5, #nav-item6, #nav-item7, #nav-item8, #nav-item9, #nav-item10 {
+        font-size: 13px;
+        padding: 15px 10px 15px 10px;
+    }
+    .input-group {
+        padding-left: 25px;
+    }
+    .cart-info {
+        padding: 6px 39px 6px 13px;
+    }
+    .cart-info a {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    .category {
+        margin-right: 20px;
+    }
+    .category a {
+        padding-right: 40px;
+    }
+    .category-name {
+        font-size: 16px;
+        margin: 20px 0px 0px 15px;
+    }
+    .product-image .btn-default {
+        margin: -80px 0px 0px 60px;
+    }
+    .service-section-2 h2 {
+        font-size: 20px;
+    }
+    .service-section-2 p {
+        font-size: 12px;
+    }
+    .service-section-2 span {
+        width: 30px;
+        height: 70px;
+        left: 285px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
